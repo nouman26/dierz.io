@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>dierz</title>
+    <link rel="icon" href="Image/favicon.png" type="image/gif" sizes="14x16">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<title>dierz</title>
+
+	<!-- Style CSS -->
+    
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/nav1style.css">
+    <link rel="stylesheet" href="CSS/nav2style.css">
+
+</head>
+<body>
+
+	    <div class="stk">
+      <img class="headerlogonav1" src="image/logo c1.png" alt="">
+      <header id="nav1">
+        <div>
+          <img class="headerlogo1" src="image/logo c5.png" alt="">
+        </div>
+          <nav class="menu menu1">
+              <ul>
+                <a href="index.html">Home</a>
+                <a href="cloth.html">Cloths</a>
+                <a href="shoes.html">Shoes</a>
+                <a href="contact.html"><u>Contact</u></a>
+              </ul>
+          </nav>
+      </header>
+
+      <div id="nav2">
+        <header class="header">
+          <a href="" class="logo"><img class="headerlogo2" src="image/logo c33.png" alt=""></a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="cloth.html"><i class="fas fa-tshirt" aria-hidden="true"></i>Cloths</a></li>
+            <li><a href="shoes.html"><i class="fas fa-shoe-prints" aria-hidden="true"></i>Footware</a></li>
+            <li><a style="background-color: #f4f4f4; color: black !important;" href="contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i>Contact</a></li>
+            </ul>
+        </header>
+      </div>
+  
+<section id="contact">
+  <h2 class="section-header">CONTACT US</h2>
+  <div class="contact-wrapper">
+    
+      <!---------------- 
+
+      CONTACT PAGE LEFT 
+    
+      -----------------> 
+      <div class="row">
+		<div class="col-md-6">
+    <form class="form-horizontal" role="form" method="post" action="contact.php">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+      
+      <button class="butn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+</div>
+    
+      <!---------------- 
+
+      CONTACT PAGE RIGHT 
+    
+      -----------------> 
+    <div class="col-md-6">
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Rohri Dist: Sukkur Sindh, PAKISTAN</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">+92 3133493416</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">dierz@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fab fa-codepen" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <hr>
+        
+        <p style="color: white">Web Design By :<a style="color: black!important" href="https://nouman26.github.io/" > https://nouman26.github.io/</a></p>
+
+        <div class="copyright">&copy; 2020|All Rights Reserved By ORIC|Developed & Maintained dierz</div>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+  
+</section>  
+  </div>
+    <script src="JS/jquery.js"></script>
+  <script>
+       $(document).ready(function(){
+          $('.headerlogo1').hide();
+          $(window).scroll(function(){
+            if( $(window).scrollTop()==0){
+                $('header').removeClass("headerc");
+                $('.headerlogo1').hide();
+              }
+            if( $(window).scrollTop()>80){
+              $('header').addClass("headerc");
+              $('.headerlogo1').show();
+              }
+          });
+      });
+      </script>
+</body>
+</html>
